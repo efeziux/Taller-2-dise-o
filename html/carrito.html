@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - Tienda Deportiva</title>
+    <link rel="stylesheet" href="/ProyectoDisennoWebdos/css/carrito.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Tienda Deportiva</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="carrito">
+            <h2>Tu Carrito de Compras</h2>
+            <table class="tabla-carrito">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Total</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Zapatillas Deportivas</td>
+                        <td>$99.99</td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td>$99.99</td>
+                        <td><button class="btn-eliminar">Eliminar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Balón de Fútbol</td>
+                        <td>$29.99</td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td>$29.99</td>
+                        <td><button class="btn-eliminar">Eliminar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Camisa deportiva</td>
+                        <td>$39.99</td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td>$39.99</td>
+                        <td><button class="btn-eliminar">Eliminar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Guantes de ciclismo</td>
+                        <td>$14.99</td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td>$14.99</td>
+                        <td><button class="btn-eliminar">Eliminar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="resumen-compra">
+                <h3>Resumen de la Compra</h3>
+                <p><strong>Subtotal:</strong> $184.96</p>
+                <p><strong>Impuestos:</strong> $15.40</p>
+                <p><strong>Total:</strong> $200.36</p>
+                <button class="btn-finalizar">Finalizar Compra</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda Deportiva. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

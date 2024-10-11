@@ -1,0 +1,153 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; /* Fondo oscuro */
+    color: #f4f4f4;
+}
+
+header {
+    background-color: #ff5722; /* Naranja vibrante */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Amarillo intenso */
+}
+
+/* Sección Nosotros */
+.nosotros {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.nosotros h2 {
+    font-size: 36px;
+    color: #ffcc00;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.nosotros p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: #f4f4f4;
+}
+
+/* Misión y visión */
+.mision-vision {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.mision,
+.vision {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 10px;
+    text-align: left;
+}
+
+.mision h3,
+.vision h3 {
+    color: #ffcc00;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mision p,
+.vision p {
+    font-size: 16px;
+    color: #f4f4f4;
+}
+
+/* Equipo */
+.equipo {
+    margin-bottom: 50px;
+}
+
+.equipo h3 {
+    font-size: 28px;
+    color: #ffcc00;
+    margin-bottom: 30px;
+}
+
+.equipo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.miembro {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.miembro img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.miembro h4 {
+    color: #ffcc00;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.miembro p {
+    font-size: 16px;
+    color: #f4f4f4;
+}
+
+/* Footer */
+footer {
+    background-color: #ff5722;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

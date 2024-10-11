@@ -1,0 +1,162 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; /* Fondo oscuro */
+    color: #f4f4f4;
+}
+
+header {
+    background-color: #ff5722; /* Naranja vibrante */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Amarillo intenso */
+}
+
+/* Sección de carrito */
+.carrito {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.carrito h2 {
+    font-size: 32px;
+    color: #ffcc00; /* Amarillo vibrante */
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.tabla-carrito {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    border-collapse: collapse;
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.tabla-carrito th,
+.tabla-carrito td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ffcc00;
+}
+
+.tabla-carrito th {
+    background-color: #444;
+    color: #ffcc00;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.tabla-carrito td input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #ffcc00;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-eliminar {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.btn-eliminar:hover {
+    background-color: #d32f2f; /* Rojo intenso */
+}
+
+/* Resumen de compra */
+.resumen-compra {
+    text-align: left;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.resumen-compra h3 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.resumen-compra p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.resumen-compra p strong {
+    color: #ffcc00;
+}
+
+.btn-finalizar {
+    background-color: #2196f3; /* Azul eléctrico */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-finalizar:hover {
+    background-color: #4caf50; /* Verde al pasar el ratón */
+}
+
+/* Footer */
+footer {
+    background-color: #ff5722;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
